@@ -1,0 +1,7 @@
+const names = require('./names')
+const sayHi = require('./utils')
+const flavour = require('./flavours')
+console.log(flavour)
+sayHi(names.john)
+sayHi(names.peter)
+require('./mind-block')
